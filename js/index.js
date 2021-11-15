@@ -84,14 +84,18 @@ likes += 10;
 
 console.log(likes);
 
-let likeResult = 'the blog has '+  likes  + ' likes';
-console.log(likeResult);
+//let likeResult = 'the blog has '+  likes  + ' likes';
+//console.log(likeResult);
 
-//template
+//template strings
 const title = 'Best reads of 2019';
 const author = 'Mario';
 const like = 30;
 
 //concatenation way
-let exResult = 'The blog called ' + title + ' by ' + author + ' has ' + likes + ' likes';
-console.log(exResult);
+//let exResult = 'The blog called ' + title + ' by ' + author + ' has ' + like + ' likes';
+//console.log(exResult);
+
+//template string way
+let strResult = 'The blog called ${title} by ${author} has ${like} likes' ;
+console.log(strResult);
