@@ -93,9 +93,38 @@ const author = 'Mario';
 const like = 30;
 
 //concatenation way
-//let exResult = 'The blog called ' + title + ' by ' + author + ' has ' + like + ' likes';
-//console.log(exResult);
+let exResult = 'The blog called ' + title + ' by ' + author + ' has ' + like + ' likes';
+console.log(exResult);
 
 //template string way
-let strResult = 'The blog called ${title} by ${author} has ${like} likes' ;
-console.log(strResult);
+//let strResult = `The blog called ${title} by ${author} has ${like} likes` ;
+//console.log(strResult);
+
+let ninjas = ['shaun', 'ryu', 'chun-li'];
+//ninjas[1] = 'ken'
+//console.log(ninjas[1]);
+let ages = [20, 25, 30, 35];
+console.log(ages[2]);
+
+//let random = ['shuan', 'crystal', 30, 20];
+//console.log(random);
+
+console.log(ninjas.length);
+
+//array methods
+//let result = ninjas.join ('-');
+//let result = ninijas.concat(['ken', 'crystal']);
+
+let age = null;
+
+console.log(age, age + 3, `the age is ${age}`);
+
+let emails = 'luigi@thenetninja.co.uk';
+let names = ['mario', 'luigi', 'toad'];
+
+//let result = email.includes('!');
+//let result = names.includes('browser');
+
+//comparison operators
+//let age = 25;
+//console.log(age == 25);
